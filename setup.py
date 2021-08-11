@@ -7,7 +7,7 @@ with open("README.md") as reader:
 
 setup(
     name="prioritymap",
-    version="0.0.1",
+    version="0.0.2",
     author="Ryan Tjoa",
     license="Apache 2.0",
     description="Priority Map -- efficient heap x map",
@@ -20,5 +20,5 @@ setup(
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
     ],
-    package_dir={"": "prioritymap"},
+    packages=["prioritymap"],
 )
