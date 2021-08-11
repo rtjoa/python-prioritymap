@@ -1,8 +1,12 @@
-# Python Priority Map
+# Tree Containers
 
-A asymptotically-efficient combination between a heap and a map that stores key:priority mappings. Licensed under the [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+Asymptotically-efficient tree-based containers in pure Python. Licensed under the [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
-## Operations
+## Priority Map
+
+A combination between a heap and a map that stores key:priority mappings.
+
+### Operations
 | Operation | Description | Runtime Complexity |
 |---|---|---|
 | `__getitem__(key)` | Get priority of key | O(1) |
@@ -13,7 +17,7 @@ A asymptotically-efficient combination between a heap and a map that stores key:
 | `peek()` | Get lowest-priority key and its priority | O(1) |
 | `pop()` | Get and remove lowest-priority key and its priority | O(log n) |
 
-## Example Console Output
+### Example Console Output
 ```py
 >>> from prioritymap import PriorityMap
 >>> pm = PriorityMap()
@@ -34,3 +38,11 @@ A asymptotically-efficient combination between a heap and a map that stores key:
 >>> len(pm)
 0
 ```
+
+## PrioritySet
+
+To be implemented.
+
+## TreeMap
+
+To be implemented.

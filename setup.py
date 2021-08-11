@@ -1,16 +1,16 @@
 from setuptools import setup
 
-import prioritymap  # noqa: F401
+import treecontainers  # noqa: F401
 
 with open("README.md") as reader:
     readme = reader.read()
 
 setup(
-    name="prioritymap",
-    version="0.0.2",
+    name="treecontainers",
+    version="0.0.1",
     author="Ryan Tjoa",
     license="Apache 2.0",
-    description="Priority Map -- efficient heap x map",
+    description="Tree Containers -- PriorityMap, PrioritySet, TreeMap",
     long_description=readme,
     long_description_content_type="text/markdown",
     classifiers=[
@@ -20,5 +20,5 @@ setup(
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
     ],
-    packages=["prioritymap"],
+    packages=["treecontainers"],
 )
